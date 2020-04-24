@@ -12,7 +12,10 @@ class ViewController: UIViewController {
 
   override func viewDidLoad() {
     super.viewDidLoad()
-    // Do any additional setup after loading the view.
+
+    let imageView = UIImageView(image: #imageLiteral(resourceName: "image"))
+    view.addSubview(imageView)
+    imageView.frame = CGRect(x: 0, y: 0, width: 100, height: 100)
   }
 
 
