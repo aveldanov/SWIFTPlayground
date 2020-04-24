@@ -26,20 +26,21 @@ class ViewController: UIViewController {
 //    redView.trailingAnchor.constraint(equalTo: view.trailingAnchor).isActive = true
 //    redView.bottomAnchor.constraint(equalTo: view.bottomAnchor).isActive = true
     
-    redView.anchor(top: view.safeAreaLayoutGuide.topAnchor, leading: view.leadingAnchor, bottom: view.safeAreaLayoutGuide.bottomAnchor, trailing: view.trailingAnchor)
+    redView.anchor(top: view.safeAreaLayoutGuide.topAnchor, leading: view.leadingAnchor, bottom: view.safeAreaLayoutGuide.bottomAnchor, trailing: view.trailingAnchor, padding: .init(top: 0, left: 16, bottom: 0, right: 16))
   }
 }
 
 
 
+
 extension UIView{
-  func anchor(top: NSLayoutYAxisAnchor, leading: NSLayoutXAxisAnchor, bottom: NSLayoutYAxisAnchor, trailing: NSLayoutXAxisAnchor){
+  func anchor(top: NSLayoutYAxisAnchor, leading: NSLayoutXAxisAnchor, bottom: NSLayoutYAxisAnchor, trailing: NSLayoutXAxisAnchor, padding: UIEdgeInsets = .zero){
     translatesAutoresizingMaskIntoConstraints = false
     
-    topAnchor.constraint(equalTo: top).isActive = true
-    leadingAnchor.constraint(equalTo: leading).isActive = true
-    trailingAnchor.constraint(equalTo: trailing).isActive = true
-    bottomAnchor.constraint(equalTo: bottom).isActive = true
+    topAnchor.constraint(equalTo: top, constant: padding.top).isActive = true
+    leadingAnchor.constraint(equalTo: leading, constant: padding.left).isActive = true
+    trailingAnchor.constraint(equalTo: trailing, constant: -padding.right).isActive = true
+    bottomAnchor.constraint(equalTo: bottom, constant: -padding.bottom).isActive = true
   }
   
   
