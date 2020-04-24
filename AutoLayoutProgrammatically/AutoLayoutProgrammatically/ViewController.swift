@@ -28,8 +28,9 @@ class ViewController: UIViewController {
 //    view.addSubview(redView)
 //    view.addSubview(blueView)
     
-    [redView, blueView, greenView, purpleView].forEach {view.addSubview($0)}
+    [redView, blueView, greenView].forEach {view.addSubview($0)}
     
+    purpleView.fillSuperview()
     
     
     redView.anchor(
