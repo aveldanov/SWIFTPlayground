@@ -21,11 +21,14 @@ class ViewController: UIViewController {
     let greenView = UIView()
     greenView.backgroundColor = .green
     
+    let purpleView = UIView()
+    purpleView.backgroundColor = .purple
+    
     
 //    view.addSubview(redView)
 //    view.addSubview(blueView)
     
-    [redView, blueView, greenView].forEach {view.addSubview($0)}
+    [redView, blueView, greenView, purpleView].forEach {view.addSubview($0)}
     
     
     
@@ -42,8 +45,7 @@ class ViewController: UIViewController {
     
     blueView.anchor(top: redView.bottomAnchor, leading: nil, bottom: nil, trailing: redView.trailingAnchor, padding: .init(top: 12, left: 0, bottom: 0, right: 0))
     
-    blueView.widthAnchor.constraint(equalTo: redView.widthAnchor).isActive = true
-    blueView.heightAnchor.constraint(equalTo: blueView.widthAnchor).isActive = true
+    blueView.anchorSize(to: redView)
 
     
     
@@ -67,6 +69,25 @@ class ViewController: UIViewController {
 
 
 extension UIView{
+  func fillSuperview(){
+    
+    anchor(top: superview?.topAnchor, leading: superview?.leadingAnchor, bottom: superview?.bottomAnchor, trailing: superview?.trailingAnchor)
+    
+    
+  }
+  
+  
+  
+  func anchorSize(to view: UIView){
+    widthAnchor.constraint(equalTo: view.widthAnchor).isActive = true
+    heightAnchor.constraint(equalTo: view.heightAnchor).isActive = true
+    
+    
+  }
+  
+  
+  
+  
   func anchor(top: NSLayoutYAxisAnchor?, leading: NSLayoutXAxisAnchor?, bottom: NSLayoutYAxisAnchor?, trailing: NSLayoutXAxisAnchor?, padding: UIEdgeInsets = .zero, size: CGSize = .zero){
     translatesAutoresizingMaskIntoConstraints = false
     
