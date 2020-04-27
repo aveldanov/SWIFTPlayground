@@ -11,9 +11,9 @@ import UIKit
 class ViewController: UIViewController {
 
   
-  @IBOutlet weak var label: UILabel!
+  @IBOutlet weak var resultLabel: UILabel!
   
-  @IBOutlet weak var textField: UITextField!
+  @IBOutlet weak var numberTextField: UITextField!
   
   override func viewDidLoad() {
     super.viewDidLoad()
@@ -26,7 +26,31 @@ class ViewController: UIViewController {
   
   @IBAction func buttonClicked(_ sender: UIButton) {
     
-    textField.text = "YO"
+    if let userEnteredString = numberTextField.text{
+      let userEnteredInteger = Int(userEnteredString)
+      if let number = userEnteredInteger{
+        if isPrime(num: number){
+          
+          resultLabel.text = "\(number) is prime!"
+        }else{
+          
+          resultLabel.text = "\(number) is NOT prime"
+        }
+        
+        
+        
+      }else{
+        
+        resultLabel.text = "Please enter a valid number!"
+        
+      }
+      
+    }
+    
+    
+    
+ 
+    
     
   }
   

@@ -76,8 +76,8 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="label" destination="cDh-OQ-NXi" id="kFu-Xd-uCR"/>
-                        <outlet property="textField" destination="9fR-BW-H3g" id="f3y-4O-EfN"/>
+                        <outlet property="numberTextField" destination="9fR-BW-H3g" id="f3y-4O-EfN"/>
+                        <outlet property="resultLabel" destination="cDh-OQ-NXi" id="kFu-Xd-uCR"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
