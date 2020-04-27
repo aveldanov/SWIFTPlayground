@@ -33,8 +33,9 @@ class ViewController: UIViewController {
   
   
   @IBAction func minusTenButtonPressed(_ sender: UIBarButtonItem) {
-    
-    count -= 10
+    if count > 10{
+      count -= 10      
+    }
     UpdateUI(with: count)
   }
   
@@ -53,7 +54,6 @@ class ViewController: UIViewController {
   }
   
   
-  // Methods
   
 
   
@@ -63,7 +63,7 @@ class ViewController: UIViewController {
 }
 
 
-
+//MARK: - Methods
 extension ViewController{
   
   func UpdateUI(with count: Int){
