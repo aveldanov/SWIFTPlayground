@@ -7,29 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2137519E2457EFED004BBAC4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2137519D2457EFED004BBAC4 /* AppDelegate.swift */; };
-		213751A02457EFED004BBAC4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2137519F2457EFED004BBAC4 /* SceneDelegate.swift */; };
-		213751A22457EFED004BBAC4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213751A12457EFED004BBAC4 /* ViewController.swift */; };
-		213751A52457EFED004BBAC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 213751A32457EFED004BBAC4 /* Main.storyboard */; };
-		213751A72457EFEF004BBAC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 213751A62457EFEF004BBAC4 /* Assets.xcassets */; };
-		213751AA2457EFEF004BBAC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 213751A82457EFEF004BBAC4 /* LaunchScreen.storyboard */; };
-		213751B22457F064004BBAC4 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213751B12457F064004BBAC4 /* SecondViewController.swift */; };
+		213751C02457F7EE004BBAC4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213751BF2457F7EE004BBAC4 /* AppDelegate.swift */; };
+		213751C22457F7EE004BBAC4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213751C12457F7EE004BBAC4 /* SceneDelegate.swift */; };
+		213751C42457F7EE004BBAC4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213751C32457F7EE004BBAC4 /* ViewController.swift */; };
+		213751C72457F7EE004BBAC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 213751C52457F7EE004BBAC4 /* Main.storyboard */; };
+		213751C92457F7F0004BBAC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 213751C82457F7F0004BBAC4 /* Assets.xcassets */; };
+		213751CC2457F7F0004BBAC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 213751CA2457F7F0004BBAC4 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2137519A2457EFED004BBAC4 /* MultipleVCPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultipleVCPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2137519D2457EFED004BBAC4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2137519F2457EFED004BBAC4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		213751A12457EFED004BBAC4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		213751A42457EFED004BBAC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		213751A62457EFEF004BBAC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		213751A92457EFEF004BBAC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		213751AB2457EFEF004BBAC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		213751B12457F064004BBAC4 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		213751BC2457F7EE004BBAC4 /* ControlKeyboardPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ControlKeyboardPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		213751BF2457F7EE004BBAC4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		213751C12457F7EE004BBAC4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		213751C32457F7EE004BBAC4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		213751C62457F7EE004BBAC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		213751C82457F7F0004BBAC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		213751CB2457F7F0004BBAC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		213751CD2457F7F0004BBAC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		213751972457EFED004BBAC4 /* Frameworks */ = {
+		213751B92457F7EE004BBAC4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,73 +37,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		213751912457EFED004BBAC4 = {
+		213751B32457F7EE004BBAC4 = {
 			isa = PBXGroup;
 			children = (
-				2137519C2457EFED004BBAC4 /* MultipleVCPractice */,
-				2137519B2457EFED004BBAC4 /* Products */,
+				213751BE2457F7EE004BBAC4 /* ControlKeyboardPractice */,
+				213751BD2457F7EE004BBAC4 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		2137519B2457EFED004BBAC4 /* Products */ = {
+		213751BD2457F7EE004BBAC4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2137519A2457EFED004BBAC4 /* MultipleVCPractice.app */,
+				213751BC2457F7EE004BBAC4 /* ControlKeyboardPractice.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2137519C2457EFED004BBAC4 /* MultipleVCPractice */ = {
+		213751BE2457F7EE004BBAC4 /* ControlKeyboardPractice */ = {
 			isa = PBXGroup;
 			children = (
-				2137519D2457EFED004BBAC4 /* AppDelegate.swift */,
-				2137519F2457EFED004BBAC4 /* SceneDelegate.swift */,
-				213751B12457F064004BBAC4 /* SecondViewController.swift */,
-				213751A12457EFED004BBAC4 /* ViewController.swift */,
-				213751A32457EFED004BBAC4 /* Main.storyboard */,
-				213751A62457EFEF004BBAC4 /* Assets.xcassets */,
-				213751A82457EFEF004BBAC4 /* LaunchScreen.storyboard */,
-				213751AB2457EFEF004BBAC4 /* Info.plist */,
+				213751BF2457F7EE004BBAC4 /* AppDelegate.swift */,
+				213751C12457F7EE004BBAC4 /* SceneDelegate.swift */,
+				213751C32457F7EE004BBAC4 /* ViewController.swift */,
+				213751C52457F7EE004BBAC4 /* Main.storyboard */,
+				213751C82457F7F0004BBAC4 /* Assets.xcassets */,
+				213751CA2457F7F0004BBAC4 /* LaunchScreen.storyboard */,
+				213751CD2457F7F0004BBAC4 /* Info.plist */,
 			);
-			path = MultipleVCPractice;
+			path = ControlKeyboardPractice;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		213751992457EFED004BBAC4 /* MultipleVCPractice */ = {
+		213751BB2457F7EE004BBAC4 /* ControlKeyboardPractice */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 213751AE2457EFEF004BBAC4 /* Build configuration list for PBXNativeTarget "MultipleVCPractice" */;
+			buildConfigurationList = 213751D02457F7F0004BBAC4 /* Build configuration list for PBXNativeTarget "ControlKeyboardPractice" */;
 			buildPhases = (
-				213751962457EFED004BBAC4 /* Sources */,
-				213751972457EFED004BBAC4 /* Frameworks */,
-				213751982457EFED004BBAC4 /* Resources */,
+				213751B82457F7EE004BBAC4 /* Sources */,
+				213751B92457F7EE004BBAC4 /* Frameworks */,
+				213751BA2457F7EE004BBAC4 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = MultipleVCPractice;
-			productName = MultipleVCPractice;
-			productReference = 2137519A2457EFED004BBAC4 /* MultipleVCPractice.app */;
+			name = ControlKeyboardPractice;
+			productName = ControlKeyboardPractice;
+			productReference = 213751BC2457F7EE004BBAC4 /* ControlKeyboardPractice.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		213751922457EFED004BBAC4 /* Project object */ = {
+		213751B42457F7EE004BBAC4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1140;
 				LastUpgradeCheck = 1140;
 				ORGANIZATIONNAME = "Anton Veldanov";
 				TargetAttributes = {
-					213751992457EFED004BBAC4 = {
+					213751BB2457F7EE004BBAC4 = {
 						CreatedOnToolsVersion = 11.4.1;
 					};
 				};
 			};
-			buildConfigurationList = 213751952457EFED004BBAC4 /* Build configuration list for PBXProject "MultipleVCPractice" */;
+			buildConfigurationList = 213751B72457F7EE004BBAC4 /* Build configuration list for PBXProject "ControlKeyboardPractice" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -113,56 +110,55 @@
 				en,
 				Base,
 			);
-			mainGroup = 213751912457EFED004BBAC4;
-			productRefGroup = 2137519B2457EFED004BBAC4 /* Products */;
+			mainGroup = 213751B32457F7EE004BBAC4;
+			productRefGroup = 213751BD2457F7EE004BBAC4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				213751992457EFED004BBAC4 /* MultipleVCPractice */,
+				213751BB2457F7EE004BBAC4 /* ControlKeyboardPractice */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		213751982457EFED004BBAC4 /* Resources */ = {
+		213751BA2457F7EE004BBAC4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				213751AA2457EFEF004BBAC4 /* LaunchScreen.storyboard in Resources */,
-				213751A72457EFEF004BBAC4 /* Assets.xcassets in Resources */,
-				213751A52457EFED004BBAC4 /* Main.storyboard in Resources */,
+				213751CC2457F7F0004BBAC4 /* LaunchScreen.storyboard in Resources */,
+				213751C92457F7F0004BBAC4 /* Assets.xcassets in Resources */,
+				213751C72457F7EE004BBAC4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		213751962457EFED004BBAC4 /* Sources */ = {
+		213751B82457F7EE004BBAC4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				213751B22457F064004BBAC4 /* SecondViewController.swift in Sources */,
-				213751A22457EFED004BBAC4 /* ViewController.swift in Sources */,
-				2137519E2457EFED004BBAC4 /* AppDelegate.swift in Sources */,
-				213751A02457EFED004BBAC4 /* SceneDelegate.swift in Sources */,
+				213751C42457F7EE004BBAC4 /* ViewController.swift in Sources */,
+				213751C02457F7EE004BBAC4 /* AppDelegate.swift in Sources */,
+				213751C22457F7EE004BBAC4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		213751A32457EFED004BBAC4 /* Main.storyboard */ = {
+		213751C52457F7EE004BBAC4 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				213751A42457EFED004BBAC4 /* Base */,
+				213751C62457F7EE004BBAC4 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		213751A82457EFEF004BBAC4 /* LaunchScreen.storyboard */ = {
+		213751CA2457F7F0004BBAC4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				213751A92457EFEF004BBAC4 /* Base */,
+				213751CB2457F7F0004BBAC4 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -170,7 +166,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		213751AC2457EFEF004BBAC4 /* Debug */ = {
+		213751CE2457F7F0004BBAC4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -230,7 +226,7 @@
 			};
 			name = Debug;
 		};
-		213751AD2457EFEF004BBAC4 /* Release */ = {
+		213751CF2457F7F0004BBAC4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -284,36 +280,36 @@
 			};
 			name = Release;
 		};
-		213751AF2457EFEF004BBAC4 /* Debug */ = {
+		213751D12457F7F0004BBAC4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QLJ84Q3ZSY;
-				INFOPLIST_FILE = MultipleVCPractice/Info.plist;
+				INFOPLIST_FILE = ControlKeyboardPractice/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.aveldanov.MultipleVCPractice;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aveldanov.ControlKeyboardPractice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		213751B02457EFEF004BBAC4 /* Release */ = {
+		213751D22457F7F0004BBAC4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QLJ84Q3ZSY;
-				INFOPLIST_FILE = MultipleVCPractice/Info.plist;
+				INFOPLIST_FILE = ControlKeyboardPractice/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.aveldanov.MultipleVCPractice;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aveldanov.ControlKeyboardPractice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -323,25 +319,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		213751952457EFED004BBAC4 /* Build configuration list for PBXProject "MultipleVCPractice" */ = {
+		213751B72457F7EE004BBAC4 /* Build configuration list for PBXProject "ControlKeyboardPractice" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				213751AC2457EFEF004BBAC4 /* Debug */,
-				213751AD2457EFEF004BBAC4 /* Release */,
+				213751CE2457F7F0004BBAC4 /* Debug */,
+				213751CF2457F7F0004BBAC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		213751AE2457EFEF004BBAC4 /* Build configuration list for PBXNativeTarget "MultipleVCPractice" */ = {
+		213751D02457F7F0004BBAC4 /* Build configuration list for PBXNativeTarget "ControlKeyboardPractice" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				213751AF2457EFEF004BBAC4 /* Debug */,
-				213751B02457EFEF004BBAC4 /* Release */,
+				213751D12457F7F0004BBAC4 /* Debug */,
+				213751D22457F7F0004BBAC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 213751922457EFED004BBAC4 /* Project object */;
+	rootObject = 213751B42457F7EE004BBAC4 /* Project object */;
 }
