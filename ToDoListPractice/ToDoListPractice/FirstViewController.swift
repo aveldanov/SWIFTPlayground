@@ -45,6 +45,17 @@ class FirstViewController: UIViewController, UITableViewDelegate, UITableViewDat
   }
   
   
+  func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
+    if editingStyle == .delete{
+      items.remove(at: indexPath.row)
+      tableView.reloadData()
+      
+      defaults.set(items, forKey: "items")
+    }
+  }
+  
+  
+  
   override func viewDidAppear(_ animated: Bool) {
     
     let itemsObject = defaults.object(forKey: "items")
