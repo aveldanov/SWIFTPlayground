@@ -23,7 +23,7 @@ class ViewController: UIViewController {
   @IBAction func VC1ButtonPressed(_ sender: UIButton) {
     
     let vc2 = storyboard?.instantiateViewController(withIdentifier: "second")
-
+    navigationController?.pushViewController(vc2!, animated: true)
     present(vc2!, animated: true, completion: nil)
   }
   
