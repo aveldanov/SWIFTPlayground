@@ -14,6 +14,7 @@ class ViewController: UIViewController {
   var timer = Timer()
   var isAnimating = false
   
+  
   @IBOutlet weak var buttonOutlet: UIButton!
   @IBOutlet weak var imageOutlet: UIImageView!
   
@@ -47,6 +48,44 @@ isAnimating = true
     
 
   }
+  
+  
+  @IBAction func fadeInPressed(_ sender: UIButton) {
+    
+    imageOutlet.alpha = 0
+    UIView.animate(withDuration: 1) {
+      self.imageOutlet.alpha = 1
+    }
+  }
+  
+  
+  @IBAction func slideInPressed(_ sender: UIButton) {
+    
+    imageOutlet.center = CGPoint(x: imageOutlet.center.x
+      - 500, y: imageOutlet.center.y)
+    
+    UIView.animate(withDuration: 2) {
+      self.imageOutlet.center = CGPoint(x: self.imageOutlet.center.x + 500, y: self.imageOutlet.center.y)
+    }
+    
+  }
+  
+  
+  @IBAction func growButtonPressed(_ sender: UIButton) {
+    
+    let width = imageOutlet.frame.width
+    let height = imageOutlet.frame.height
+    
+    imageOutlet.frame = CGRect(x: imageOutlet.frame.origin.x, y: imageOutlet.frame.origin.y, width: 0, height: 0)
+    
+    UIView.animate(withDuration: 1) {
+      self.imageOutlet.frame = CGRect(x: self.imageOutlet.frame.origin.x
+        , y: self.imageOutlet.frame.origin.y, width: width, height: height)
+    }
+    
+  }
+  
+  
   
 }
 
