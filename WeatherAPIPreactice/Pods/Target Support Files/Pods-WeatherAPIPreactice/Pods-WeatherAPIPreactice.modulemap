@@ -1,0 +1,6 @@
+framework module Pods_WeatherAPIPreactice {
+  umbrella header "Pods-WeatherAPIPreactice-umbrella.h"
+
+  export *
+  module * { export * }
+}
