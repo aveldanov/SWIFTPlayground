@@ -35,7 +35,7 @@ class ViewController: UIViewController, MKMapViewDelegate {
     mapOutlet.addAnnotation(annotation)
     
     
-    //MARK: - long press gesture reconizer
+    //MARK: - long press gesture reconizer - add another point on map
     let uilpgr = UILongPressGestureRecognizer(target: self, action: #selector(self.longpress(gestureRecognizer:)))
     mapOutlet.addGestureRecognizer(uilpgr)
     
