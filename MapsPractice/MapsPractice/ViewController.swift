@@ -15,13 +15,13 @@ class ViewController: UIViewController, MKMapViewDelegate {
   override func viewDidLoad() {
     super.viewDidLoad()
     let latitude: CLLocationDegrees = 37.3688
-    let logitude: CLLocationDegrees = -122.0363
+    let longitude: CLLocationDegrees = -122.0363
     let latDelta: CLLocationDegrees = 0.05 //technically a zoom...distance between lat lines
     let lonDelta: CLLocationDegrees = 0.05
     
     let span: MKCoordinateSpan = MKCoordinateSpan(latitudeDelta: latDelta, longitudeDelta: lonDelta)
     
-    let location: CLLocationCoordinate2D = CLLocationCoordinate2D(latitude: latitude, longitude: logitude)
+    let location: CLLocationCoordinate2D = CLLocationCoordinate2D(latitude: latitude, longitude: longitude)
     let region: MKCoordinateRegion = MKCoordinateRegion(center: location, span: span)
     
     mapOutlet.setRegion(region, animated: true)

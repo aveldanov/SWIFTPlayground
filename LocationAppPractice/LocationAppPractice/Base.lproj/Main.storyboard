@@ -10,31 +10,31 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="FindingUserLocationPractice" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="LocationAppPractice" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="xSc-XR-30O">
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="ESf-k2-0NP">
                                 <rect key="frame" x="0.0" y="44" width="414" height="818"/>
                             </mapView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="xSc-XR-30O" secondAttribute="trailing" id="WpC-52-Ejb"/>
-                            <constraint firstItem="xSc-XR-30O" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Y56-6M-VMd"/>
-                            <constraint firstItem="xSc-XR-30O" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="ax6-64-1mF"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="xSc-XR-30O" secondAttribute="bottom" id="vvK-hO-qnA"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ESf-k2-0NP" secondAttribute="bottom" id="8ea-cc-Rl6"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ESf-k2-0NP" secondAttribute="trailing" id="CUM-8p-D93"/>
+                            <constraint firstItem="ESf-k2-0NP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Idb-EE-gSi"/>
+                            <constraint firstItem="ESf-k2-0NP" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="pIm-Oi-PFh"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="mapOutlet" destination="xSc-XR-30O" id="fS7-yi-5HR"/>
+                        <outlet property="mapOutlet" destination="ESf-k2-0NP" id="iSi-j1-wzc"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="139" y="75"/>
+            <point key="canvasLocation" x="139" y="138"/>
         </scene>
     </scenes>
 </document>
