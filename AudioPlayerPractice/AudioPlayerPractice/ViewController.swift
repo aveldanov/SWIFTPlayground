@@ -13,6 +13,10 @@ class ViewController: UIViewController {
 
   var player = AVAudioPlayer()
   
+  @IBOutlet weak var sliderOutlet: UISlider!
+  
+  
+  
   override func viewDidLoad() {
     super.viewDidLoad()
     
@@ -28,6 +32,22 @@ class ViewController: UIViewController {
     
   }
 
+  
+  
+  @IBAction func playButtonPressed(_ sender: UIButton) {
+    
+    player.play()
+  }
+  @IBAction func pauseButtonPressed(_ sender: UIButton) {
+    player.pause()
+  }
+  
+  @IBAction func sliderTapped(_ sender: UISlider) {
+    player.volume = sliderOutlet.value
+    
+  }
+  
+  
 
 }
 
