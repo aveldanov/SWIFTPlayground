@@ -3,6 +3,7 @@
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -15,7 +16,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="120" id="dJh-m2-NJc" customClass="ParallaxViewCell" customModule="ParallaxCellPractice" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleAspectFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="120" id="dJh-m2-NJc" customClass="ParallaxViewCell" customModule="ParallaxCellPractice" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="414" height="120"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="dJh-m2-NJc" id="T0n-2L-kBX">
@@ -24,6 +25,7 @@
                                     <subviews>
                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1" translatesAutoresizingMaskIntoConstraints="NO" id="8n1-89-DIb">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="120"/>
+                                            <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
                                         </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CAMERAS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l89-JR-0JU">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="120"/>
@@ -60,8 +62,38 @@
             </objects>
             <point key="canvasLocation" x="80" y="119"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="xtZ-Oe-fCD">
+            <objects>
+                <viewController id="pme-df-nHD" customClass="ViewController" customModule="ParallaxCellPractice" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="TkQ-KG-jAS">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="3" translatesAutoresizingMaskIntoConstraints="NO" id="WgB-B6-MA8">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="RW3-hK-iYM" firstAttribute="trailing" secondItem="WgB-B6-MA8" secondAttribute="trailing" id="eyV-AV-bbJ"/>
+                            <constraint firstItem="RW3-hK-iYM" firstAttribute="bottom" secondItem="WgB-B6-MA8" secondAttribute="bottom" id="gNe-z3-j7J"/>
+                            <constraint firstItem="WgB-B6-MA8" firstAttribute="top" secondItem="RW3-hK-iYM" secondAttribute="top" id="rmj-XY-LYu"/>
+                            <constraint firstItem="WgB-B6-MA8" firstAttribute="leading" secondItem="RW3-hK-iYM" secondAttribute="leading" id="yFl-AL-0Mu"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="RW3-hK-iYM"/>
+                    </view>
+                    <connections>
+                        <outlet property="newImageView" destination="WgB-B6-MA8" id="jS0-AU-GYs"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0il-oG-uuj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="863.768115942029" y="169.41964285714286"/>
+        </scene>
     </scenes>
     <resources>
         <image name="1" width="1080" height="720"/>
+        <image name="3" width="1080" height="720"/>
     </resources>
 </document>

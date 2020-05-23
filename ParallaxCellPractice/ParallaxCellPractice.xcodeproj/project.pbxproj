@@ -15,6 +15,7 @@
 		210DCC9924787ADE005B2891 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 210DCC9724787ADE005B2891 /* LaunchScreen.storyboard */; };
 		210DCCA52478FFDC005B2891 /* ParallaxViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210DCCA42478FFDC005B2891 /* ParallaxViewCell.swift */; };
 		210DCCA724790626005B2891 /* ImagesNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210DCCA624790626005B2891 /* ImagesNames.swift */; };
+		210DCCAA24791ADA005B2891 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210DCCA924791ADA005B2891 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		210DCC9A24787ADE005B2891 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		210DCCA42478FFDC005B2891 /* ParallaxViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallaxViewCell.swift; sourceTree = "<group>"; };
 		210DCCA624790626005B2891 /* ImagesNames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesNames.swift; sourceTree = "<group>"; };
+		210DCCA924791ADA005B2891 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 		210DCC8B24787AD9005B2891 /* ParallaxCellPractice */ = {
 			isa = PBXGroup;
 			children = (
+				210DCCA924791ADA005B2891 /* ViewController.swift */,
 				210DCC8C24787AD9005B2891 /* AppDelegate.swift */,
 				210DCC8E24787AD9005B2891 /* SceneDelegate.swift */,
 				210DCCA22478FFA1005B2891 /* Controller */,
@@ -168,6 +171,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				210DCCAA24791ADA005B2891 /* ViewController.swift in Sources */,
 				210DCCA724790626005B2891 /* ImagesNames.swift in Sources */,
 				210DCC9124787AD9005B2891 /* ListTableViewController.swift in Sources */,
 				210DCCA52478FFDC005B2891 /* ParallaxViewCell.swift in Sources */,
