@@ -2,25 +2,47 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16097"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Table View Controller-->
+        <!--List Table View Controller-->
         <scene sceneID="qCH-0P-Hpb">
             <objects>
-                <tableViewController id="6yC-Qs-i69" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="zHf-Fp-9sm">
+                <tableViewController id="6yC-Qs-i69" customClass="ListTableViewController" customModule="ParallaxCellPractice" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="120" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="zHf-Fp-9sm">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="dJh-m2-NJc">
-                                <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="120" id="dJh-m2-NJc">
+                                <rect key="frame" x="0.0" y="28" width="414" height="120"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="dJh-m2-NJc" id="T0n-2L-kBX">
-                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="120"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1" translatesAutoresizingMaskIntoConstraints="NO" id="8n1-89-DIb">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="120"/>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CAMERAS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l89-JR-0JU">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="120"/>
+                                            <color key="backgroundColor" white="0.0" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                            <fontDescription key="fontDescription" name="AvenirNext-HeavyItalic" family="Avenir Next" pointSize="50"/>
+                                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="8n1-89-DIb" firstAttribute="top" secondItem="T0n-2L-kBX" secondAttribute="top" id="31t-3d-cAg"/>
+                                        <constraint firstAttribute="trailing" secondItem="8n1-89-DIb" secondAttribute="trailing" id="Ald-H0-8Vj"/>
+                                        <constraint firstItem="l89-JR-0JU" firstAttribute="leading" secondItem="T0n-2L-kBX" secondAttribute="leading" id="DAX-7x-1AC"/>
+                                        <constraint firstAttribute="bottom" secondItem="l89-JR-0JU" secondAttribute="bottom" id="f6I-DW-4wz"/>
+                                        <constraint firstAttribute="bottom" secondItem="8n1-89-DIb" secondAttribute="bottom" id="q0G-yK-9zU"/>
+                                        <constraint firstItem="l89-JR-0JU" firstAttribute="top" secondItem="T0n-2L-kBX" secondAttribute="top" id="swq-lK-N1d"/>
+                                        <constraint firstItem="8n1-89-DIb" firstAttribute="leading" secondItem="T0n-2L-kBX" secondAttribute="leading" id="uf2-fd-BUO"/>
+                                        <constraint firstAttribute="trailing" secondItem="l89-JR-0JU" secondAttribute="trailing" id="zQR-g1-qLX"/>
+                                    </constraints>
                                 </tableViewCellContentView>
                             </tableViewCell>
                         </prototypes>
@@ -32,7 +54,10 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QJA-75-jUF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="28" y="251"/>
+            <point key="canvasLocation" x="80" y="119"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="1" width="1080" height="720"/>
+    </resources>
 </document>
