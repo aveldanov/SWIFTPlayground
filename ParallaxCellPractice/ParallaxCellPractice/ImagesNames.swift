@@ -13,7 +13,7 @@ var camera = UIImage(named: "1")
 var city = UIImage(named: "2")
 var animals = UIImage(named: "3")
 var flowers = UIImage(named: "4")
-var camera = UIImage(named: "5")
-var camera = UIImage(named: "6")
+var stand = UIImage(named: "5")
+var urban = UIImage(named: "6")
 
 
