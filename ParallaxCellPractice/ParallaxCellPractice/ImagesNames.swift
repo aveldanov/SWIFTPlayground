@@ -11,8 +11,8 @@ import UIKit
 
 var camera = UIImage(named: "1")
 var city = UIImage(named: "2")
-var camera = UIImage(named: "3")
-var camera = UIImage(named: "4")
+var animals = UIImage(named: "3")
+var flowers = UIImage(named: "4")
 var camera = UIImage(named: "5")
 var camera = UIImage(named: "6")
 
