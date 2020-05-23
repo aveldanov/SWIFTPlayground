@@ -28,9 +28,11 @@ class ParallaxViewCell: UITableViewCell {
   
   func setupParallax(){
     
-    let min = -30
-    let max = 30
+    let min = CGFloat(-30)
+    let max = CGFloat(30)
     
+    let xMotion = UIInterpolatingMotionEffect(keyPath: "layer.transform", type: <#T##UIInterpolatingMotionEffect.EffectType#>)
+    let yMotion =
   }
 
 }
