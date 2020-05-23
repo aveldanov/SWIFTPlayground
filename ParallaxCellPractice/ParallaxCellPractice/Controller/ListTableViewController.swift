@@ -14,7 +14,6 @@ class ListTableViewController: UITableViewController {
     super.viewDidLoad()
     tableView.delegate = self
     tableView.dataSource = self
-    view.backgroundColor = .cyan
   }
   
   
