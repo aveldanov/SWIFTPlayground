@@ -18,4 +18,4 @@ var urban = UIImage(named: "6")
 
 var imageArray = [camera,city,animals,flowers,stand,urban]
 
-var nameArray = 
+var nameArray = ["CAMERAS","CITY", "ANIMALS","FLOWERS", "STAND", "URBAN]
