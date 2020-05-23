@@ -28,7 +28,8 @@ class ParallaxViewCell: UITableViewCell {
   
   func setupParallax(){
     
-    
+    let min = -30
+    let max = 30
     
   }
 
