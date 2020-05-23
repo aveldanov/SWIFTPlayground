@@ -16,4 +16,6 @@ var flowers = UIImage(named: "4")
 var stand = UIImage(named: "5")
 var urban = UIImage(named: "6")
 
+var imageArray = [camera,city,animals,flowers,stand,urban]
 
+var nameArray = 
