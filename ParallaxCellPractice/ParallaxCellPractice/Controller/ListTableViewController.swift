@@ -26,9 +26,10 @@ class ListTableViewController: UITableViewController {
     return imageArray.count
   }
   override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-    guard let cell = tableView.dequeueReusableCell(withIdentifier: Cell, for: indexPath)
+    guard let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as? ParallaxViewCell else {return UITableViewCell()}
+    cell.configureCell(withImage: imageArray[indexPath.row]!, andDescription: nameArray[indexPath.row])
     
-    
+    return cell
   }
   
 

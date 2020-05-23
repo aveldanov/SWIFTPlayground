@@ -67,7 +67,7 @@
 				210DCC9524787ADE005B2891 /* Assets.xcassets */,
 				210DCC9724787ADE005B2891 /* LaunchScreen.storyboard */,
 				210DCC9A24787ADE005B2891 /* Info.plist */,
-				210DCCA624790626005B2891 /* ImagesNames.swift */,
+				210DCCA824790972005B2891 /* Model */,
 			);
 			path = ParallaxCellPractice;
 			sourceTree = "<group>";
@@ -87,6 +87,14 @@
 				210DCCA42478FFDC005B2891 /* ParallaxViewCell.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		210DCCA824790972005B2891 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				210DCCA624790626005B2891 /* ImagesNames.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
