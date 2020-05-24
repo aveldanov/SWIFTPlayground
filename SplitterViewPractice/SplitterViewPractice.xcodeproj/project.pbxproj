@@ -10,7 +10,7 @@
 		210DCCB82479C076005B2891 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210DCCB72479C076005B2891 /* AppDelegate.swift */; };
 		210DCCBA2479C076005B2891 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210DCCB92479C076005B2891 /* SceneDelegate.swift */; };
 		210DCCBC2479C076005B2891 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210DCCBB2479C076005B2891 /* MasterViewController.swift */; };
-		210DCCBE2479C076005B2891 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210DCCBD2479C076005B2891 /* DetailViewController.swift */; };
+		210DCCBE2479C076005B2891 /* ImagePresentationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210DCCBD2479C076005B2891 /* ImagePresentationViewController.swift */; };
 		210DCCC12479C076005B2891 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 210DCCBF2479C076005B2891 /* Main.storyboard */; };
 		210DCCC32479C079005B2891 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 210DCCC22479C079005B2891 /* Assets.xcassets */; };
 		210DCCC62479C079005B2891 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 210DCCC42479C079005B2891 /* LaunchScreen.storyboard */; };
@@ -22,7 +22,7 @@
 		210DCCB72479C076005B2891 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		210DCCB92479C076005B2891 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		210DCCBB2479C076005B2891 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
-		210DCCBD2479C076005B2891 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		210DCCBD2479C076005B2891 /* ImagePresentationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePresentationViewController.swift; sourceTree = "<group>"; };
 		210DCCC02479C076005B2891 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		210DCCC22479C079005B2891 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		210DCCC52479C079005B2891 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -63,7 +63,7 @@
 				210DCCB72479C076005B2891 /* AppDelegate.swift */,
 				210DCCB92479C076005B2891 /* SceneDelegate.swift */,
 				210DCCBB2479C076005B2891 /* MasterViewController.swift */,
-				210DCCBD2479C076005B2891 /* DetailViewController.swift */,
+				210DCCBD2479C076005B2891 /* ImagePresentationViewController.swift */,
 				210DCCBF2479C076005B2891 /* Main.storyboard */,
 				210DCCCD247A2A16005B2891 /* ImagesNamesColors.swift */,
 				210DCCC22479C079005B2891 /* Assets.xcassets */,
@@ -148,7 +148,7 @@
 				210DCCBA2479C076005B2891 /* SceneDelegate.swift in Sources */,
 				210DCCBC2479C076005B2891 /* MasterViewController.swift in Sources */,
 				210DCCCE247A2A16005B2891 /* ImagesNamesColors.swift in Sources */,
-				210DCCBE2479C076005B2891 /* DetailViewController.swift in Sources */,
+				210DCCBE2479C076005B2891 /* ImagePresentationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

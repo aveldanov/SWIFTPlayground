@@ -1,5 +1,5 @@
 //
-//  DetailViewController.swift
+//  ImagePresentationVC.swift
 //  SplitterViewPractice
 //
 //  Created by Veldanov, Anton on 5/23/20.
@@ -8,13 +8,16 @@
 
 import UIKit
 
-class DetailViewController: UIViewController {
+class ImagePresentationViewController: UIViewController {
 
   @IBOutlet weak var itemImageView: UIImageView!
   
+  var image: UIImage?
   override func viewDidLoad() {
     super.viewDidLoad()
-    // Do any additional setup after loading the view.
+
+    itemImageView.image = image
+    
   }
 
 
