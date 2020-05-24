@@ -48,7 +48,9 @@
                     </view>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="mOI-FS-AaM">
-                        <barButtonItem key="backBarButtonItem" title="Back" id="MSX-P3-MZ1"/>
+                        <barButtonItem key="backBarButtonItem" title="Back" id="MSX-P3-MZ1">
+                            <color key="tintColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="itemImageView" destination="aa3-04-HyU" id="1wJ-Lw-nUI"/>
@@ -109,7 +111,9 @@
                             <outlet property="delegate" destination="7bK-jq-Zjz" id="RA6-mI-bju"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Splits" id="Zdf-7t-Un8"/>
+                    <navigationItem key="navigationItem" title="Splits" id="Zdf-7t-Un8">
+                        <barButtonItem key="backBarButtonItem" title="Back" id="au5-0g-snd"/>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Rux-fX-hf1" sceneMemberID="firstResponder"/>
             </objects>
