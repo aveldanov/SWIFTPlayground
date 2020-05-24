@@ -28,8 +28,10 @@ class MasterViewController: UITableViewController {
         if let indexPath = tableView.indexPathForSelectedRow {
             let controller = (segue.destination as! UINavigationController).topViewController as! ImagePresentationViewController
           controller.image = imageArray[indexPath.row]
+          
             controller.navigationItem.leftBarButtonItem = splitViewController?.displayModeButtonItem
-            controller.navigationItem.leftItemsSupplementBackButton = true
+          
+             controller.navigationItem.leftItemsSupplementBackButton = true
         }
     }
   }
@@ -58,7 +60,13 @@ class MasterViewController: UITableViewController {
   }
 
 
+  override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
 
+      
+      return (tableView.frame.height - 60) / CGFloat(imageArray.count)
+
+    
+  }
 
 }
 

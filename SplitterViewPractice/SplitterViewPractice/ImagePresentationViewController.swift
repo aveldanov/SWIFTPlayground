@@ -15,8 +15,10 @@ class ImagePresentationViewController: UIViewController {
   var image: UIImage?
   override func viewDidLoad() {
     super.viewDidLoad()
+    DispatchQueue.main.async {
+      self.itemImageView.image = self.image
 
-    itemImageView.image = image
+    }
     
   }
 
