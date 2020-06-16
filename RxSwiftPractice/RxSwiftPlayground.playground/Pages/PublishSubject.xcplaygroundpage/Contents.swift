@@ -2,7 +2,7 @@ import RxSwift
 import PlaygroundSupport
 PlaygroundPage.current.needsIndefiniteExecution = true
 
-
+//GIVES ELEMENT AFTER SUBSCRIPTION!!!!
 
 var publishSubject = PublishSubject<String>()
 
