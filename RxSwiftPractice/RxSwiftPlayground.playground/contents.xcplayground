@@ -8,5 +8,6 @@
         <page name='ReplaySubject'/>
         <page name='Variable'/>
         <page name='SubjectChallenge'/>
+        <page name='Map'/>
     </pages>
 </playground>
