@@ -12,12 +12,13 @@ formatter.numberStyle = .spellOut // 1 = "one"
 
 Observable<NSNumber>.of(123,47,9)
   .map{
-    formatter.string(from: $0) // 123 -> "123" -> "one two three"
+    formatter.string(from: $0) ?? "" //removes optional
+    // 123 -> "123" -> "one two three"
     
     
 }
 .subscribe(onNext: {
   print($0)
-})
+  }).disposed(by: disposeBad)
 
 
