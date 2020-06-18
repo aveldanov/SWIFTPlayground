@@ -11,5 +11,7 @@
         <page name='Map'/>
         <page name='flatMap'/>
         <page name='filter'/>
+        <page name='zip'/>
+        <page name='TransformationsChallenge'/>
     </pages>
 </playground>
